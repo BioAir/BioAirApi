@@ -1,4 +1,4 @@
-ID,CODIGO DE LA ENTIDAD,CODIGO UBIGEO INEI,CODIGO PAIS,NOMBRE DE LA UO,Fecha,CO (ug/m3),H2S (ug/m3),NO2 (ug/m3),O3 (ug/m3),"PM10 (ug/m3)","PM2.5 (ug/m3)",SO2 (ug/m3),Ruido (dB),UV,Humedad (%),Latitud,Longitud,"Presion (Pa)",Temperatura (C)
+ID,CODIGO DE LA ENTIDAD,CODIGO UBIGEO INEI,CODIGO PAIS,NOMBRE DE LA UO,Fecha,CO (ug/m3),H2S (ug/m3),NO2 (ug/m3),O3 (ug/m3),PM10 (ug/m3),PM2.5 (ug/m3),SO2 (ug/m3),Ruido (dB),UV,Humedad (%),Latitud,Longitud,Presion (Pa),Temperatura (C)
 1,10069,150122,PE,Subgerencia de Desarrollo Ambiental,01/07/2020 00:00,0,0,85.21,0,40.80,18.59,7.27,72.48,0,91.64,-12.10972,-77.05194,100750.77,15.71
 2,10069,150122,PE,Subgerencia de Desarrollo Ambiental,01/07/2020 01:00,0,0,84.51,0,48.19,21.02,7.28,69.67,0,91.32,-12.10972,-77.05194,100739.41,15.73
 3,10069,150122,PE,Subgerencia de Desarrollo Ambiental,01/07/2020 02:00,0,0,83.38,0,40.88,18.83,7.25,72.05,0,92.59,-12.10972,-77.05194,100743.13,15.44
