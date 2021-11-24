@@ -1,0 +1,48 @@
+<app-header></app-header>
+<div class="contenedor">
+
+    
+    <div><h1>Dia {{day.index}}</h1></div>
+    <h4>{{day.descripcion}}</h4>
+    <div class="content">
+        <div>
+            <!-- <img src="" alt=""> -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr;">
+                <h1><span style="color: chartreuse;">{{day.temperatura}}°C</span></h1>
+                <img style="height: 50px; width: 50px;border-radius: 10px;" src="../../../assets/img/nublado.jpg" alt="img nube">
+            </div>
+            
+            
+            <mat-divider></mat-divider>
+            
+            
+            
+        </div>
+        
+            
+        <div>
+            <h2>Ruido <span style="color: chartreuse;">{{day.ruido}} dB</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+            
+    
+    
+        <div>
+            <h2>Humedad <span style="color: chartreuse;">{{day.humedad}}%</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+    
+        <div>
+            <h2>UV <span style="color: chartreuse;">{{day.uv}}</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+    
+        <div>
+            <h2>Presion<span style="color: chartreuse;">{{day.presion}} hPa</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+    </div>
+    
+
+
+</div>

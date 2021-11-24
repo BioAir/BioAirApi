@@ -1,0 +1,35 @@
+.contenedor{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 2%;
+    padding: 1%;
+    
+}
+
+.content{
+    background: rgb(10,10,10);
+    background: linear-gradient(90deg, rgba(10,10,10,1) 25%, rgba(41,41,50,1) 51%, rgba(1,2,5,1) 80%);
+    
+    color: blanchedalmond;
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1%;
+}
+
+.mat-divider {
+  border-top-color: white;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+    .content {
+        text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }

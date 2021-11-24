@@ -1,0 +1,11 @@
+.flex-expand {
+    flex: 1 1 auto;
+}
+
+.routes{
+    margin-left: 30px;
+}
+
+.app-name:hover{
+    cursor: pointer;
+}

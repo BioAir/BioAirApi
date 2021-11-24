@@ -1,0 +1,22 @@
+<div class="container cabecera">
+    <mat-toolbar color="primary">
+        <mat-toolbar-row>
+            <!-- <img class="logo" src="../../../assets/img/avatar.png" alt=""> -->
+          <span class="app-name" (click)="goToHome()">BioAirApp</span>
+          <div routerLinkActive="active" class="routes">
+            
+            <!-- <!-- <a mat-button  [routerLink]="'/home'">Home</a> -->
+            <a mat-button  [routerLink]="'/week-forecast'">Pronostico de dias</a>
+            <!-- <a mat-button  [routerLink]="'/customer'">Customers</a> -->
+            
+          </div>
+
+          <span class="flex-expand"></span>
+          <div>
+            <h1><i>Hoy</i></h1>
+            <h2>Lima {{tempHoy}}C</h2>
+          </div>
+      
+        </mat-toolbar-row>
+      </mat-toolbar>
+  </div>

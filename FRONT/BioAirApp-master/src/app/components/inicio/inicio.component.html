@@ -1,0 +1,60 @@
+<app-header></app-header>
+<div class="choose-date">
+    <mat-form-field appearance="fill">
+        <mat-label>Elige una fecha</mat-label>
+        <input matInput [matDatepicker]="picker1" [min]="TODAY_DATE" [max]="MAX_DATE" (dateChange)="chooseDateWeather($event)">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+    </mat-form-field>
+</div>
+<div class="contenedor">
+
+    
+    <div><h1>Hoy</h1></div>
+    <mat-progress-bar *ngIf="progress_bar" mode="query"></mat-progress-bar>
+    <div class="content" *ngIf="todayInfo">
+        <div>
+            <!-- <img src="" alt=""> -->
+            <div style="display: grid; grid-template-columns: 1fr 1fr;justify-content: space-around;">
+                <h1><span  >Temperatura <span class="valores"> {{todayInfo.temperatura}}°C</span></span></h1>
+                <img style="height: 50px; width: 50px;border-radius: 10px;" src="../../../assets/img/nublado.jpg" alt="img nube">
+            </div>
+            
+            <h4>{{todayInfo.descripcion}}</h4>
+            <mat-divider></mat-divider>
+            
+            
+            
+        </div>
+        
+            
+    
+            
+        <div>
+            <h2>Ruido <span class="valores">{{todayInfo.ruido}} dv</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+            
+    
+    
+        <div>
+            <h2>Humedad <span class="valores">{{todayInfo.humedad}}%</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+    
+        <div>
+            <h2>UV <span class="valores">{{todayInfo.uv}}</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+    
+        <div>
+            <h2>Presion<span class="valores">{{todayInfo.presion}} hPa</span></h2>
+            <mat-divider></mat-divider>
+        </div>
+    
+        
+    </div>
+    
+
+
+</div>
